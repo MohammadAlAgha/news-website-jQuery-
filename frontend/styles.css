@@ -47,17 +47,22 @@ hr {
 .wrapper {
   padding: 10px;
   display: flex;
-  flex-direction: column;
-  justify-content: start;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .news {
-  margin: 60px 0;
+  margin: 60px 5px;
+  border: 3px rgb(0, 5, 123) solid;
+  padding: 20px;
+  border-radius: 20px;
+  width: 40%;
 }
 
 .title {
   font-size: 40px;
   margin: 20px 0;
+  text-decoration: underline;
 }
 
 h1 {
