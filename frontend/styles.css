@@ -7,10 +7,11 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
 }
 
 .header {
-  height: 30vh;
+  height: 20vh;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -36,4 +37,35 @@ button {
 
 button:active {
   transform: scale(0.95);
+}
+
+hr {
+  border: 1px black solid;
+  margin-bottom: 20px;
+}
+
+.wrapper {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.news {
+  margin: 60px 0;
+}
+
+.title {
+  font-size: 40px;
+  margin: 20px 0;
+}
+
+h1 {
+  font-size: 60px;
+  text-decoration: underline;
+  color: rgb(0, 5, 123);
+}
+
+.description {
+  font-size: 20px;
 }
