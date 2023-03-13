@@ -8,3 +8,32 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.header {
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.navBtns {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+button {
+  border-radius: 20px;
+  height: 30px;
+  width: 80px;
+  background-color: rgb(0, 5, 123);
+  color: aliceblue;
+  cursor: pointer;
+}
+
+button:active {
+  transform: scale(0.95);
+}
